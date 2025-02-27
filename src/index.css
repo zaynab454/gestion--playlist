@@ -1,0 +1,50 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background-color: #1a1a1a;
+  color: white;
+  overflow-x: hidden;
+}
+
+.comment-grid {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.comment {
+  background-color: #2d2d2d;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.new-comment-form {
+  background-color: #2d2d2d;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.star {
+  color: #ffd700;
+}
+
+.bg-gray-700 {
+  margin-right: 10px;
+}
+
+input.w-full{
+  margin-bottom: 15px;
+}
+
+.hover:bg-gray-600{
+  margin-right: 10px;
+}
+
+.hover:bg-red-600 {
+  margin-right: -25px;
+}
